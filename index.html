@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="x-icon" href="images/klogo.png">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web\css\all.min.css">
+    <script src="https://kit.fontawesome.com/7a7d6d066a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="typed.umd.js"></script>
+    <title>Kaleb-Portfolio</title>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu"> 
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#certificate">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa fa-times-circle" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa fa-bars" onclick="openmenu()"></i>  
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm<br> <span>KALEB MENBERE</span><br> from Ethiopia </h1>
+            <p>And I'm <span class="im"></span></p>
+        </div>
+        </div>
+  </div>
+
+  <!----------------------------------about-------------------------------------------------->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Highly motivated professional with experience in developing and managing software 
+                    applications. Proven record of successful design and implementation of software
+                    solutions to streamline processes and improve productivity. Highly skilled in 
+                    python, Java, Unix command and C ++. 
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                    <li><span>Web Development</span><br>Desiging fully functioning websites</li>
+                    <li><span>Software Development</span><br>Develop Desktop applications</li>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                    <li><span>2021 - 2025</span><br>Charity worker at Dilla University</li>
+                    <li><span>2023 - 2025</span><br>Incubation Center at Dilla University</li>
+                    <li><span>2024 - 2025</span><br>Internship at ------------</li>    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                    <li><span>Computer Science</span><br>BSC from Dilla University</li>
+                    <li><span>Cyber Security</span><br>Google</li>
+                    <li><span>Version Control, Web Development</span><br>Meta</li>
+                    <li><span>Python, Django</span><br>University of MICHIGAN </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------services------------------------------------------------>
+<div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> Ensure the design is responsive, compatible with various devices and browsers, and accessible to users with disabilities.</p>
+                    <a href="#contact">Contact Me</a>
+                    </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Develop user flows, information architecture, and wireframes to create intuitive and user-friendly website interfaces.</p>
+                    <a href="#contact">Contact Me</a>
+                    </div>
+                <div>
+                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                    <h2>Java Programmer</h2>
+                    <p>Have a strong command of the Java programming language, including core libraries and frameworks.<br></p>
+                    <a href="#contact">Contact Me</a>
+                    </div>
+            </div>
+        </div>
+</div>
+  <!--------------------------portfolio------------------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-02.png">
+                <div class="layer">
+                    <h3>Dorm Student Managment Desktop Application</h3>
+                    <p>This software is designed for proctors to manage students by registering, withdrawing, changing student information and take attendance within 24 hours.</p>
+                    <a target="_blank" href="https://youtu.be/njw0WvzpGV0"><i class="fas fa-external-link-alt    "></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Quick Quiz</h3>
+                    <p>A game of question and answer.</p>
+                    <a target="_blank" href="https://atsewkaleb-quick-quiz.netlify.app"><i class="fas fa-external-link-alt    "></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Dorm Student Managment Desktop Application</h3>
+                    <p>This software is designed for proctors to manage students by registering, withdrawing, changing student information and take attendance within 24 hours.</p>
+                    <a href="#"><i class="fas fa-external-link-alt    "></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/atsewkaleb" class="btn">See More</a>
+    </div>
+  </div>
+<!---------------------------------Certificates-------------------------------------------------->
+<div id="certificate">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="certificates">
+            <div class="certificate">
+                <img src="certificate/google1.png">
+                <div class="layer">
+                    <h3>Fundamental of CyberSecurity</h3>
+                    <p>By Google</p>
+                    <a target="_blank" href="https://coursera.org/verify/HAGZ5YKJBPX7">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/google2.png">
+                <div class="layer">
+                    <h3>Play it safe: Manage Security Risk</h3>
+                    <p>By Google</p>
+                     <a target="_blank" href="https://coursera.org/verify/5ZUGDSXKKRDR">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/google3.png">
+                <div class="layer">
+                    <h3>Connect and Protect :Network and Network Security</h3>
+                    <p>By Google</p>
+                    <a target="_blank" href="https://coursera.org/verify/G6NDQP6JWGQM">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/meta1.png">
+                <div class="layer">
+                    <h3>Introduction to Android Mobile Application Development</h3>
+                        <p>By Meta</p>
+                    <a target="_blank" href="https://coursera.org/verify/MLAFZPDWXY4E">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/meta4.png">
+                <div class="layer">
+                    <h3>Introduction to Front-End Development</h3>
+                        <p>By Meta</p>
+                    <a target="_blank" href="https://coursera.org/verify/Z9CLBJSF34UV">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/meta2.png">
+                <div class="layer">
+                    <h3>Version Control</h3>
+                    <p>By Meta</p>
+                    <a target="_blank" href="https://coursera.org/verify/8MGSAUU9ZSGV">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/meta3.png">
+                <div class="layer">
+                    <h3>Programming with Javascript</h3>
+                    <p>By Meta</p>
+                    <a target="_blank" href="https://coursera.org/verify/SLTZX783EP7C">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/python1.png">
+                <div class="layer">
+                    <h3>Python Data Structure</h3>
+                    <p>by University of MICHIGAN</p>
+                    <a target="_blank" href="https://coursera.org/verify/WM4JW35USLXH">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/python2.png">
+                <div class="layer">
+                    <h3>Programming for EveryBody (Getting started with Python)</h3>
+                    <p>By University of MICHIGAN</p>
+                    <a target="_blank" href="https://coursera.org/verify/DD7LXAQB7NGW">Verify</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------------contact me---------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p class="emailp"><a target="_blank" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></a> atsewkaleb@gmail.com</p>
+                <p class="phonep"><a href="#" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i></a> 0976957649</p>
+                <div class="social-icons">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100076878441082"><i class="fa fa-facebook-square"></i></a>
+                    <a target="_blank" href="https://twitter.com/atsewcaleb"><i class="fa fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/ats.ekaleb/"><i class="fa fa-instagram"></i></a>
+                    <a target="_blank" href="https://github.com/atsewkaleb"><i class="fa fa-github"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/atsewkaleb/"><i class="fa fa-linkedin"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/@atsewkaleb"><i class="fa fa-youtube"></i></a>
+                </div>
+                <a href="cv/my_cv_kaleb.pdf" download target="_blank" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <input type="text" name="Subject"  placeholder="Your Subject">
+                    <textarea name="Message" rows=6 placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ kaleb. Made by <span> kaleb </span>with the help of  Youtube <i id="youtube" class="fa fa-youtube"></i></p>
+    </div>  
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!----------------------------------javascript---------------------------------------------------------------------------------->
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+  </script>
+
+<!----------typer------------->
+  <script>
+    var typed=new Typed(".im",{
+        strings: ["Web Developer", "Software Developer","UI/UX Designer","Java Programmer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    })
+  </script>
+
+
+  <script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-150px";
+    }
+  </script>
+
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw0-Rj790Z5eR2XUnGWKUjTyxViRR_I_34wlry2BhcsZ3p9UgNYo-ofvGIWpEMEf1ApzA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
